@@ -14,7 +14,7 @@ class CameraControl
   captured_success_regex: /New file is in/g
 
   constructor: (
-    @filename="%m-%y-%d_%H:%M:%S.jpg",
+    @filename="%m-%y-%d_%Hx%Mx%S.jpg",
     @cwd="public/photos",
     @web_root_path="/photos") ->
 
